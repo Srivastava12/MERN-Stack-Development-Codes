@@ -1,0 +1,103 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+section{
+    width: 80vw;
+    height: 100vw;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    margin: 20px auto;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+p{
+    font-size: 20px;
+}
+/*
+@media screen and (max-width: 800px){
+    h1{
+        font-size: 45px;
+        color: blue;
+    }
+}
+*/
+/* for max-width */
+@media screena and (max-width:1200px) {
+    section{
+        background-color: burlywood;
+    }
+    h1{
+        font-size: 40px;
+        color: aquamarine;
+    }
+}
+@media screen and (max-width:991px) {
+    h1{
+        font-size: 40px;
+        color: rgb(0, green,0);
+    }
+}
+@media screen and (max-width: 786px){
+    section{
+        background-color: rgb(242,156,156);
+    }
+    h1{
+        font-size: 40px;
+        color: rgb(57, 57, 190);
+    }
+}
+@media screen and (max-width: 576px){
+    section{
+        background-color: rgb(230,228,203);
+    }
+    h1{
+        font-size: 40px;
+        color:chartreuse
+    }
+}
+/*for min-width
+@media screena and (min-width:1200px) {
+    section{
+        background-color: burlywood;
+    }
+    h1{
+        font-size: 40px;
+        color: rgb(0,255,0);
+    }
+}
+@media screen and (min-width:991px) {
+    h1{
+        font-size: 40px;
+        color: rgb(0, green,0);
+    }
+}
+@media screen and (min-width: 786px){
+    section{
+        background-color: rgd(242,156,156);
+    }
+    h1{
+        font-size: 45px;
+        color: blue;
+    }
+}
+@media screen and (max-width: 576px){
+    section{
+        background-color: rgb(230,228,203);
+    }
+    h1{
+        font-size: 40px;
+        color:chartreuse
+    }
+}*/
+/* @media screen and (orientation:landscape) {
+    section{
+        background-color: rgb(230, 228,226);
+    }
+    h1{
+        font-size: 40px;
+        color:chartreuse
+    }
+} */

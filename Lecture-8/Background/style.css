@@ -1,0 +1,9 @@
+.image{
+    width: 70vw;
+    height: 90vh;
+    border: 2px solid black;
+    background-image: url('https://images.unsplash.com/photo-1731902062633-1496d7bcf95c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale();
+}
